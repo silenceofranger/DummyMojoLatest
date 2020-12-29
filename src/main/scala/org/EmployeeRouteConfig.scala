@@ -59,7 +59,6 @@ class EmployeeRouteConfig(implicit val system: ActorSystem) extends JsonUtils {
             }
           }
         },
-
         path("delete") {
           delete {
             parameter("id") { id =>
